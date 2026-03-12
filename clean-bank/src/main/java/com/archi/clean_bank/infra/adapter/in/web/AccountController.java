@@ -1,4 +1,4 @@
 package com.archi.clean_bank.infra.adapter.in.web;
 
-public class ContaController {
+public class AccountController {
 }
