@@ -4,7 +4,7 @@ import com.archi.clean_bank.application.port.in.LoginUseCase;
 
 public class LoginService implements LoginUseCase {
     @Override
-    public String executar(String cpf, String senhaPura) {
+    public String execute(String cpf, String senhaPura) {
         return "";
     }
 }
