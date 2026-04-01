@@ -4,7 +4,7 @@ import com.archi.clean_bank.domain.model.Account;
 
 import java.util.Optional;
 
-public interface ContactRepositoryPort {
+public interface AccountRepositoryPort {
     Optional<Account> findByNumber(String number);
     void save(Account account);
 }
