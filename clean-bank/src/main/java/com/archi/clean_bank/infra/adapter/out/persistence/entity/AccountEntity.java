@@ -24,7 +24,7 @@ public class AccountEntity {
 
     @OneToOne
     @JoinColumn(name = "client_id")
-    private UUID clientId;
+    private ClientEntity clientId;
 
     @Column
     private BigDecimal saldo;

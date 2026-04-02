@@ -21,7 +21,7 @@ public class Account {
         this.saldo = BigDecimal.ZERO;
     }
 
-    public Account(UUID id, String numero, Client client, BigDecimal saldo, BigDecimal limit) {
+    private Account(UUID id, String numero, Client client, BigDecimal saldo, BigDecimal limit) {
         this.id = id;
         this.numero = numero;
         this.client = client;
